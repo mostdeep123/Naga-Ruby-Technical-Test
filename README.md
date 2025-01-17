@@ -17,7 +17,7 @@ I am using SOLID at some part of the implementation on this test task
    Buff script was made and store 2 classes that needs to perform Buff and Debuff , which is _AttackBuff_ Class and _DefenseDebuff_ class , these 2 classes use different
    interface they need to perform different function - while _AttackBuff_ use _IBuff_ Interface (that can be expand depends on the cases) and _DefenseDebuff_ use _IDebuff_
    (that can actually be expands too depends on the cases), in this case its just create 1 single simple method to enchance damage and lower the defense
-5. **DIP** -> Dependency Inversion Principal, Principe to not let Code become **Chain Dependency** by giving 1 Class depends only to certain interface or abstraction , in this     test, i'm implementing _AiInterface_ so that any _Actor_ that needs AI logic can used this interface which is what _Enemy_ class did then execute AI logic.
+5. **DIP** -> Dependency Inversion Principal, Principe to not let Code become **Chain Dependency** by giving 1 Class depends only to certain interface or abstraction , in this     test, i'm implementing _AiInterface_ so that any _Actor_ that needs AI logic can used this interface which is what _Enemy_ class did and then it execute AI logic.
 
 **Script Used**
 There are 7 scripts needed to accomplish this Test task.
