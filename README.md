@@ -1,8 +1,8 @@
 **SOURCE CODE EXPLANATION**
 
 **OOP Principal Using SOLID**
-SOLID was OOP Principal programming used to make a clean - flexible and also scalable introduced by **Robert C Martin** 
-I am using SOLID as some of the implementation on this test task 
+SOLID was OOP Principal programming used to make a clean - flexible and also scalable , this principal was introduced by **Robert C Martin** ,
+I am using SOLID at some part of the implementation on this test task 
 1. **SRP** -> Single Responsibility Principal , which has been used on the _Actor_ Script , by creating 2 of important classes
    which is _StatsManager_ that only do 1 task to maintain and managing a stats on the _Actor_ class and_ StateManager_ that only do 1
    single task which is to maintain all the state that happen on that _Actor_
